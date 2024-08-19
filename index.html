@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lng:"en">
+      <head>
+            <meta charset:"UTF-8">
+            <meta name="viewport" "content = device-width, initial-scale = 1.0">
+            <title> Ben's Portfolio Website</title>
+            <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+            <link rel= "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
+        
+         <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+         
+        <link rel="stylesheet" href="css/style.css">
+        
+ </head> 
+<body>
+    <header>
+        <div class = "logo">
+            <img src = "/img/pusheeeeeen.gif" alt="">
+        </div>
+        <button class = "nav-toggle" aria-label = "toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href = "#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href = "#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href = "#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href = "#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Ben Woodward!</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Prospective Software Developer</p>
+        <img src="/img/IMG_3784.jpg" alt="a picture of Ben Woodward" class = "intro__img">
+    </section> 
+    <section class="my-services" id="services">
+        <h2 class = "section__title section__title--services">What I do</h2>
+        
+      <!-- My Services -->  
+        <div class = "services">
+            <div class = "service">
+                <h3>html/css</h3>
+                <p>Currently learning the languages and building projects such as this!</p>
+            </div>
+
+        
+            <div class = "service">
+                <h3>Python</h3>
+                <p>A favourite one to be learning!</p>
+            </div>
+        
+            <div class = "service">
+                <h3>JavaScript</h3>
+                <p>A new era of learning</p>
+            </div>
+        </div>
+        <a href ="work" class="btn">My Work></a>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class = "about-me" id = "about">
+        <h2 class = "section__title section__title--about">Who I am</h2>
+        <p class = "section__subtitle section__subtitle--about">I am on a journey to enhance my software development skills, learning as much as I can to build a career in the tech industry.</p>
+        
+        <div class = "about-me__body"> 
+            <p>Along the way...</p>
+            <p>I hope my progress, tenacity, and growth impresses you!</p>
+        </div>
+        
+        <img src="/img/starry.jpg" alt = "Image of Ben" class = "about-me__img">
+    </section>
+    
+    <!-- work -->
+    <section class= "my-work" id="work">
+       <h2 class= "section__title section__title--work"> My work</h2>
+       <p class= "section__subtitle section__subtitle--work"></p>
+       
+       <div class = "portfolio">
+        <!-- portfolio 1 -->
+        <a href = "#" class = "portfolio__item">
+            <img src = "/img/hoot.jpg" alt= "" class = "portfolio__img">
+        </a>
+        <!-- portfolio 2 -->
+        <a href = "#" class = "portfolio__item">
+            <img src = "/img/brown.png" alt= "" class = "portfolio__img">
+        </a>
+        <!-- portfolio 3 -->
+        <a href = "#" class = "portfolio__item">
+            <img src = "/img/sprout.jpg" alt= "" class = "portfolio__img">
+        </a>
+        <!-- portfolio 4 -->  
+        <a href = "#" class = "portfolio__item">
+            <img src = "/img/bert.jpg" alt= "" class = "portfolio__img">
+        </a>
+    </div>
+    </section>
+    
+    <footer class="footer">
+        <a href = "mailto:Bennwoodward27@yahoo.com" class="footer__link">Bennwoodward27@yahoo.com
+            <ul class = "social-list">
+                <li class = "social-list__item"><a class="social-list__link" href = ""https://github.com"">
+                    <i class="fab fa-github"></i>
+                </a>
+                </li>
+                <li class = "social-list__item"><a class="social-list__link" href= ""><i class="fab fa-linkedin"></i></a></li>
+                <li class = "social-list__item"><a class="social-list__link" href= ""><i class="fab fa-codepen"></i></a></li>
+                <li class = "social-list__item"><a class="social-list__link" href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </a>
+    </footer>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
